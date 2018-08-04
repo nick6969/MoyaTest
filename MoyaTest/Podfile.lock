@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.7.2)
+  - CHLMVP (0.1.0)
+  - mLayout (0.1.3)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+
+DEPENDENCIES:
+  - Alamofire (= 4.7.2)
+  - CHLMVP
+  - mLayout
+  - Moya (= 11.0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  CHLMVP: 7607590c5d34a623246d7e6a276210016aaedf09
+  mLayout: 8222ce8cb0209406c3bcfe3a330b14f83d1e7165
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+
+PODFILE CHECKSUM: 767a4560f4b2a808cffdb4e09349e95a55a1380a
+
+COCOAPODS: 1.4.0
