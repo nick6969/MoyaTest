@@ -16,6 +16,7 @@
 		0126C9AF211750240032242E /* CellForModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126C9AE211750240032242E /* CellForModelProtocol.swift */; };
 		0126C9B12117558C0032242E /* ZipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126C9B02117558C0032242E /* ZipModel.swift */; };
 		0126C9B3211757920032242E /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126C9B2211757920032242E /* LibraryModel.swift */; };
+		0126C9B52117591D0032242E /* JsonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126C9B42117591D0032242E /* JsonExtension.swift */; };
 		01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C393211723CA0035B77E /* AppStoreAPI.swift */; };
 		01E5C397211724790035B77E /* WebService+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C396211724790035B77E /* WebService+Base.swift */; };
 		01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C399211724E90035B77E /* MoyaURLProtocol.swift */; };
@@ -49,6 +50,7 @@
 		0126C9AE211750240032242E /* CellForModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForModelProtocol.swift; sourceTree = "<group>"; };
 		0126C9B02117558C0032242E /* ZipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipModel.swift; sourceTree = "<group>"; };
 		0126C9B2211757920032242E /* LibraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryModel.swift; sourceTree = "<group>"; };
+		0126C9B42117591D0032242E /* JsonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtension.swift; sourceTree = "<group>"; };
 		01E5C393211723CA0035B77E /* AppStoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAPI.swift; sourceTree = "<group>"; };
 		01E5C396211724790035B77E /* WebService+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Base.swift"; sourceTree = "<group>"; };
 		01E5C399211724E90035B77E /* MoyaURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaURLProtocol.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				0126C9A421174E310032242E /* UICollectionViewExtension.swift */,
+				0126C9B42117591D0032242E /* JsonExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				0126C9A221174DF40032242E /* BaseCollectionVC.swift in Sources */,
 				0126C9AA21174ED30032242E /* EmptyView.swift in Sources */,
 				01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */,
+				0126C9B52117591D0032242E /* JsonExtension.swift in Sources */,
 				01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */,
 				0126C9A521174E310032242E /* UICollectionViewExtension.swift in Sources */,
 				01E5C397211724790035B77E /* WebService+Base.swift in Sources */,
