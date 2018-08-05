@@ -9,6 +9,7 @@ target 'MoyaTest' do
   pod 'Alamofire', '4.7.2'
   pod 'CHLMVP'
   pod 'mLayout'
+  pod 'SVProgressHUD', '2.2.5'
 
   target 'MoyaTestTests' do
     inherit! :search_paths
