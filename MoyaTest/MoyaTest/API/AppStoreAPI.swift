@@ -21,8 +21,8 @@ extension AppStoreAPI: TargetType {
     var task: Task {
         var para: [String: Any] = [:]
         switch self {
-        case .getAppVersion(let id):
-            para["id"] = id
+        case .getAppVersion(let identify):
+            para["id"] = identify
         }
         return .requestParameters(parameters: para, encoding: URLEncoding.default)
     }
