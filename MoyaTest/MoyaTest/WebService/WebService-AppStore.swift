@@ -8,15 +8,20 @@
 
 import Moya
 
+enum AppStoreAreaType: String {
+    case twArea = "TW"
+}
+
 extension WebService {
 
     func getAppStoreData(provider: MoyaProvider<AppStoreAPI> = MoyaProvider<AppStoreAPI>.default,
                          appStoreID: String,
+                         storeArea: AppStoreAreaType,
                          success: ModelSuccessClosure<AppStoreVersionModel>?,
                          failure: ErrorClosure?) {
 
         request(provider: provider,
-                target: .getAppVersion(id: appStoreID),
+                target: .getAppVersion(id: appStoreID, storeArea: storeArea),
                 success: success,
                 failure: failure)
 

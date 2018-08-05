@@ -9,10 +9,11 @@
 import Moya
 
 enum AppStoreAPI {
-    case getAppVersion(id: String)
+    case getAppVersion(id: String, storeArea: AppStoreAreaType)
 }
 
 extension AppStoreAPI: TargetType {
+    // https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
     var baseURL: URL { return URL(string: "http://itunes.apple.com")! }
     var path: String { return "/lookup" }
     var method: Moya.Method { return .get }
@@ -21,8 +22,9 @@ extension AppStoreAPI: TargetType {
     var task: Task {
         var para: [String: Any] = [:]
         switch self {
-        case .getAppVersion(let identify):
+        case let .getAppVersion(identify, storeArea):
             para["id"] = identify
+            para["country"] = storeArea.rawValue
         }
         return .requestParameters(parameters: para, encoding: URLEncoding.default)
     }
