@@ -1,0 +1,13 @@
+disabled_rules: # 执行时排除掉的规则
+  # you can use -  'swiftlint rules' find
+  - trailing_whitespace
+opt_in_rules: 
+  # you can use -  'swiftlint rules' find
+
+included:
+
+excluded:
+  - Pods
+
+line_length: 150
+
