@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C393211723CA0035B77E /* AppStoreAPI.swift */; };
 		01FB4D29211670C900B5CF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB4D28211670C900B5CF33 /* AppDelegate.swift */; };
 		01FB4D30211670CA00B5CF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FB4D2F211670CA00B5CF33 /* Assets.xcassets */; };
 		01FB4D33211670CA00B5CF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FB4D31211670CA00B5CF33 /* LaunchScreen.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E5C393211723CA0035B77E /* AppStoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAPI.swift; sourceTree = "<group>"; };
 		01FB4D25211670C900B5CF33 /* MoyaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FB4D28211670C900B5CF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01FB4D2F211670CA00B5CF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E5C392211723B40035B77E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01E5C393211723CA0035B77E /* AppStoreAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		01FB4D1C211670C900B5CF33 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		01FB4D27211670C900B5CF33 /* MoyaTest */ = {
 			isa = PBXGroup;
 			children = (
+				01E5C392211723B40035B77E /* API */,
 				01FB4D49211671AC00B5CF33 /* ViewController */,
 				01FB4D482116710500B5CF33 /* Support */,
 				01FB4D28211670C900B5CF33 /* AppDelegate.swift */,
@@ -381,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */,
 				01FB4D29211670C900B5CF33 /* AppDelegate.swift in Sources */,
 				01FB4D4B211671D200B5CF33 /* MainVC.swift in Sources */,
 			);
