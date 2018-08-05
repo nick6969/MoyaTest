@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0126C99F21172A400032242E /* WebService-AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0126C99E21172A400032242E /* WebService-AppStore.swift */; };
 		01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C393211723CA0035B77E /* AppStoreAPI.swift */; };
 		01E5C397211724790035B77E /* WebService+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C396211724790035B77E /* WebService+Base.swift */; };
 		01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C399211724E90035B77E /* MoyaURLProtocol.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0126C99E21172A400032242E /* WebService-AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService-AppStore.swift"; sourceTree = "<group>"; };
 		01E5C393211723CA0035B77E /* AppStoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAPI.swift; sourceTree = "<group>"; };
 		01E5C396211724790035B77E /* WebService+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Base.swift"; sourceTree = "<group>"; };
 		01E5C399211724E90035B77E /* MoyaURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaURLProtocol.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				01E5C398211724D40035B77E /* Support */,
 				01E5C396211724790035B77E /* WebService+Base.swift */,
+				0126C99E21172A400032242E /* WebService-AppStore.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				01E5C397211724790035B77E /* WebService+Base.swift in Sources */,
 				01FB4D29211670C900B5CF33 /* AppDelegate.swift in Sources */,
 				01FB4D4B211671D200B5CF33 /* MainVC.swift in Sources */,
+				0126C99F21172A400032242E /* WebService-AppStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
