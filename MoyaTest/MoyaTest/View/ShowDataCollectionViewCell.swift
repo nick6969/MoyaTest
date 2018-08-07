@@ -35,6 +35,16 @@ final class ShowDataCollectionViewCell: UICollectionViewCell, CellForModelProtoc
 
         titleLabel.textAlignment = .center
         detailLabel.textAlignment = .center
+
+        contentView.backgroundColor = .white
+        contentView.layer.borderWidth = 2
+        contentView.layer.borderColor = UIColor(red: 0x74/0xff, green: 0x74/0xff, blue: 0x74/0xff, alpha: 1).cgColor
+        contentView.layer.cornerRadius = 10
+        contentView.layer.shadowColor = UIColor.darkGray.cgColor
+        contentView.layer.shadowOffset = CGSize(width: 1.0, height: 2.0)
+        contentView.layer.shadowRadius = 2.0
+        contentView.layer.shadowOpacity = 0.5
+
     }
 
     func configCell(_ model: JsonModel, indexPath: IndexPath) {
