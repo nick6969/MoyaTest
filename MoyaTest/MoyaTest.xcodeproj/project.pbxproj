@@ -23,6 +23,8 @@
 		0191FEEF21191A4800C9C1EF /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEEE21191A4800C9C1EF /* LibraryVC.swift */; };
 		0191FEF121191A6600C9C1EF /* SightseeingFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEF021191A6600C9C1EF /* SightseeingFactoryVC.swift */; };
 		0191FEF821191D8300C9C1EF /* JsonProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEF721191D8300C9C1EF /* JsonProtocolExtension.swift */; };
+		01D637802119C17C00D3458B /* NewTaipeiAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6377F2119C17C00D3458B /* NewTaipeiAPI.swift */; };
+		01D637822119C3E300D3458B /* WebService-NewTaipei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D637812119C3E300D3458B /* WebService-NewTaipei.swift */; };
 		01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C393211723CA0035B77E /* AppStoreAPI.swift */; };
 		01E5C397211724790035B77E /* WebService+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C396211724790035B77E /* WebService+Base.swift */; };
 		01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C399211724E90035B77E /* MoyaURLProtocol.swift */; };
@@ -63,6 +65,8 @@
 		0191FEEE21191A4800C9C1EF /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
 		0191FEF021191A6600C9C1EF /* SightseeingFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightseeingFactoryVC.swift; sourceTree = "<group>"; };
 		0191FEF721191D8300C9C1EF /* JsonProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonProtocolExtension.swift; sourceTree = "<group>"; };
+		01D6377F2119C17C00D3458B /* NewTaipeiAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaipeiAPI.swift; sourceTree = "<group>"; };
+		01D637812119C3E300D3458B /* WebService-NewTaipei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService-NewTaipei.swift"; sourceTree = "<group>"; };
 		01E5C393211723CA0035B77E /* AppStoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAPI.swift; sourceTree = "<group>"; };
 		01E5C396211724790035B77E /* WebService+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Base.swift"; sourceTree = "<group>"; };
 		01E5C399211724E90035B77E /* MoyaURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaURLProtocol.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				01E5C393211723CA0035B77E /* AppStoreAPI.swift */,
+				01D6377F2119C17C00D3458B /* NewTaipeiAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 				01E5C398211724D40035B77E /* Support */,
 				01E5C396211724790035B77E /* WebService+Base.swift */,
 				0126C99E21172A400032242E /* WebService-AppStore.swift */,
+				01D637812119C3E300D3458B /* WebService-NewTaipei.swift */,
 			);
 			path = WebService;
 			sourceTree = "<group>";
@@ -508,11 +514,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0191FEEB2119164500C9C1EF /* ShowDataCollectionViewCell.swift in Sources */,
+				01D637802119C17C00D3458B /* NewTaipeiAPI.swift in Sources */,
 				01E5C39D2117283C0035B77E /* AppStoreVersionModel.swift in Sources */,
 				0126C9B721175A690032242E /* SightseeingFactoryModel.swift in Sources */,
 				0126C9AC21174F090032242E /* NoDataView.swift in Sources */,
 				0191FEEF21191A4800C9C1EF /* LibraryVC.swift in Sources */,
 				0126C9A221174DF40032242E /* BaseCollectionVC.swift in Sources */,
+				01D637822119C3E300D3458B /* WebService-NewTaipei.swift in Sources */,
 				0126C9AA21174ED30032242E /* EmptyView.swift in Sources */,
 				01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */,
 				0191FEED211918C700C9C1EF /* ZipVC.swift in Sources */,

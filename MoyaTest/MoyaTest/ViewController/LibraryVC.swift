@@ -12,7 +12,7 @@ import CHLMVP
 final class LibraryPresenter: BasePresenter<LibraryModel>, StandardPresenter {
 
     func loadData() {
-
+        WebService.shared.getLibraryData(success: modelsSuccessClosure, failure: loadFailClosure)
     }
 
     func loadDataMore() {

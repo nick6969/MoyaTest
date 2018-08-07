@@ -12,7 +12,7 @@ import CHLMVP
 final class ZipPresenter: BasePresenter<ZipModel>, StandardPresenter {
 
     func loadData() {
-
+        WebService.shared.getZipData(success: modelsSuccessClosure, failure: loadFailClosure)
     }
 
     func loadDataMore() {
