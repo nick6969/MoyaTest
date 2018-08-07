@@ -44,11 +44,11 @@ final class MainVC: UIViewController {
     @objc private func didTap(_ button: UIButton) {
         switch button {
         case zipButton:
-            print(button)
+            self.navigationController?.pushViewController(ZipVC(), animated: true)
         case libraryButton:
-            print(button)
+            self.navigationController?.pushViewController(LibraryVC(), animated: true)
         case sightseeingFactoryButton:
-            print(button)
+            self.navigationController?.pushViewController(SightseeingFactoryVC(), animated: true)
         default:
             break
         }
