@@ -22,6 +22,7 @@
 		0191FEED211918C700C9C1EF /* ZipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEEC211918C700C9C1EF /* ZipVC.swift */; };
 		0191FEEF21191A4800C9C1EF /* LibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEEE21191A4800C9C1EF /* LibraryVC.swift */; };
 		0191FEF121191A6600C9C1EF /* SightseeingFactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEF021191A6600C9C1EF /* SightseeingFactoryVC.swift */; };
+		0191FEF821191D8300C9C1EF /* JsonProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191FEF721191D8300C9C1EF /* JsonProtocolExtension.swift */; };
 		01E5C394211723CA0035B77E /* AppStoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C393211723CA0035B77E /* AppStoreAPI.swift */; };
 		01E5C397211724790035B77E /* WebService+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C396211724790035B77E /* WebService+Base.swift */; };
 		01E5C39A211724E90035B77E /* MoyaURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5C399211724E90035B77E /* MoyaURLProtocol.swift */; };
@@ -61,6 +62,7 @@
 		0191FEEC211918C700C9C1EF /* ZipVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipVC.swift; sourceTree = "<group>"; };
 		0191FEEE21191A4800C9C1EF /* LibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryVC.swift; sourceTree = "<group>"; };
 		0191FEF021191A6600C9C1EF /* SightseeingFactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightseeingFactoryVC.swift; sourceTree = "<group>"; };
+		0191FEF721191D8300C9C1EF /* JsonProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonProtocolExtension.swift; sourceTree = "<group>"; };
 		01E5C393211723CA0035B77E /* AppStoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAPI.swift; sourceTree = "<group>"; };
 		01E5C396211724790035B77E /* WebService+Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebService+Base.swift"; sourceTree = "<group>"; };
 		01E5C399211724E90035B77E /* MoyaURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaURLProtocol.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				0126C9A421174E310032242E /* UICollectionViewExtension.swift */,
 				0126C9B42117591D0032242E /* JsonExtension.swift */,
+				0191FEF721191D8300C9C1EF /* JsonProtocolExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				0126C9A521174E310032242E /* UICollectionViewExtension.swift in Sources */,
 				01E5C397211724790035B77E /* WebService+Base.swift in Sources */,
 				01FB4D29211670C900B5CF33 /* AppDelegate.swift in Sources */,
+				0191FEF821191D8300C9C1EF /* JsonProtocolExtension.swift in Sources */,
 				01FB4D4B211671D200B5CF33 /* MainVC.swift in Sources */,
 				0126C9B3211757920032242E /* LibraryModel.swift in Sources */,
 				0191FEF121191A6600C9C1EF /* SightseeingFactoryVC.swift in Sources */,
